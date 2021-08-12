@@ -1,0 +1,72 @@
+.hero-background-img{
+    background: url("../img/gym.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 30%;
+}
+
+.black-overlay{
+    background: rgba(0,0,0,0.6);
+    height: 100%;
+    width: 100%;
+}
+
+.border-seperator-light{
+    border-right: 1px solid black;
+}
+
+.brand-name-design{
+    font-size: 25px;
+    font-weight: bolder;
+    width: 130px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.brand-name-text:after{
+    content: "LATITUDE";
+    margin-left: 40px;
+}
+
+.brand-name-area{
+    transition: all 0.3s ease-in-out;
+
+}
+
+.brand-name-design:hover .brand-name-area{
+    transform: translateX(-58.5%);
+}
+
+.burger-white{
+    color: white;
+}
+
+.nav-link-style{
+    color: white;
+}
+
+.nav-link-style:hover{
+    color: black;
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
+.zoom-on-hover{
+    transition: all 0.3s ease-in-out;
+}
+
+.zoom-on-hover:hover{
+    transform: scale(1.4);
+}
+
+
+/*********Custom code for devices below tablets***************/
+@media screen and (max-width: 780px ){
+    .border-seperator-light{
+        border-right: 0px solid black;
+        border-bottom: 1px solid black;
+
+    }
+}
