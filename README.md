@@ -1,4 +1,4 @@
-# Bulmas based Gym Template
+# Bulma Gym Template
 Simple HTML Template for Gym Owners created using Bulma. Granted under MIT License.
 
 Preview: - 
